@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import os
 
-app = Flask(__name__, static_folder=os.path.join(os.path.dirname(__file__), '../frontend'))
+app = Flask(__name__, static_folder='frontend', static_url_path='')
 CORS(app)
 
 # ---------------- DATA ----------------
