@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Smart Health Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>AI Smart Health Assistant</h1>
+
+    <div class="card">
+        <h2>Select Disease</h2>
+
+        <select id="disease">
+            <option value="">-- Select Disease --</option>
+            <option value="fever">Fever</option>
+            <option value="cold">Cold</option>
+            <option value="headache">Headache</option>
+        </select>
+
+        <button onclick="getHealthData()">Get Health Details</button>
+    </div>
+
+    <div id="output" class="card result-box">
+        <p>Your results will appear here...</p>
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>

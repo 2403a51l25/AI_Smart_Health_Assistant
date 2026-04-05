@@ -1,0 +1,124 @@
+/* ===== GLOBAL STYLES ===== */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #333;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* ===== HEADER ===== */
+.site-header {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding: 15px 0;
+    text-align: center;
+}
+
+.site-header h1 {
+    color: white;
+    margin: 0;
+}
+
+/* ===== NAVBAR ===== */
+.main-nav {
+    margin-top: 10px;
+}
+
+.nav-link {
+    background: rgba(255,255,255,0.2);
+    border: none;
+    padding: 10px 18px;
+    margin: 5px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    background: white;
+    color: #764ba2;
+}
+
+/* ===== PANELS ===== */
+.panel {
+    display: none;
+    background: white;
+    margin-top: 20px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.panel.active {
+    display: block;
+}
+
+/* ===== INPUTS ===== */
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #667eea;
+}
+
+/* ===== BUTTONS ===== */
+button {
+    margin-top: 12px;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* ===== RESPONSE BOX ===== */
+.response-card {
+    margin-top: 15px;
+    padding: 15px;
+    background: #f1f5ff;
+    border-left: 5px solid #667eea;
+    border-radius: 10px;
+}
+
+/* ===== REMINDERS ===== */
+.reminder-list-wrapper {
+    margin-top: 15px;
+}
+
+#reminder-list li {
+    background: #eef2ff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+/* ===== FOOTER ===== */
+.site-footer {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}

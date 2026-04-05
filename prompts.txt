@@ -1,0 +1,50 @@
+AI Smart Health Assistant Project Prompts
+
+1. Backend: app.py
+------------------
+Generate a complete Flask backend for an AI Smart Health Assistant WITHOUT using OpenAI. Features:
+- /ask endpoint with predefined health responses
+- /symptom-check endpoint using predefined symptom causes
+- /diet-tips endpoint using predefined diet plans
+- /exercise-tips endpoint using predefined exercise routines
+- /reminders endpoint with SQLite DB (add, list, delete reminders)
+- Enable CORS for frontend
+- Proper JSON responses and error handling
+- Ready for Render deployment using PORT environment variable
+
+2. Backend: requirements.txt
+----------------------------
+Generate a requirements.txt file for the backend including:
+- Flask
+- Flask-Cors
+(No OpenAI)
+
+3. Frontend: index.html
+-----------------------
+Generate a complete index.html file with:
+- Sections for chat (/ask), symptom-check (/symptom-check), diet-tips (/diet-tips), exercise-tips (/exercise-tips), and medication reminders (/reminders)
+- Input fields, buttons, and areas to show responses
+- Navigation bar or tabs for switching sections
+- Links to style.css and app.js
+- Mobile-friendly responsive design
+- Semantic HTML5 elements
+
+4. Frontend: style.css
+----------------------
+Generate a complete style.css file with:
+- Modern, clean, professional design
+- Styling for navigation, sections, input fields, buttons, and response areas
+- Responsive layout using flexbox or grid
+- Hover effects, padding, margins, and shadows
+- Styled tables or lists for reminders
+
+5. Frontend: app.js
+-------------------
+Generate a complete app.js file to:
+- Connect frontend to backend endpoints
+- Handle POST and GET requests with fetch()
+- Display responses in the correct sections
+- Add event listeners for buttons/forms
+- Update reminders dynamically after add/delete
+- Include error handling
+- Compatible with index.html structure
